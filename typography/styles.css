@@ -1,0 +1,58 @@
+.serif{
+    font-family: 'Times New Roman', serif;
+}
+
+.sans-serif{
+    font-family: Arial, sans-serif;
+}
+
+.monospace{
+    font-family: 'Courier New', monospace;
+}
+
+.small{
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.medium{
+    border: 1px solid #000;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+}   
+
+.large{
+    border: 1px solid #000;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.relative-size{
+    font-size: 3.2em;
+    font-style: italic;
+}
+
+.viewport-size{
+    font-size: 3vw;
+    font-style:unset;
+}
+
+.line-height{
+    letter-spacing: 2px;
+    line-height: 2;
+    word-spacing: 10px;
+}
+
+.toLower{
+    text-transform: lowercase;
+}
+.toUpper{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
